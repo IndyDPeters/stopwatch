@@ -1,0 +1,30 @@
+html, body{
+    background-color: rgb(255, 191, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.timer{
+    color: white;
+    font-family: 'Courier New', monospace;
+    font-size: 150px;
+} 
+
+
+
+.timerControlsButton{
+    border: 1px solid;
+    border-color: white;
+    font-size: xxx-large;
+    background-color: transparent;
+    color: white;
+    font-family: 'Courier New', monospace;
+    cursor: pointer;
+}
+
+.timerControlsButton:hover{
+    background-color: wheat;
+}
